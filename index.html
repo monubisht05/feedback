@@ -12,8 +12,12 @@
             padding: 20px;
             line-height: 1.6;
             background-color: #f9f9f9;
-            background-image: url('Picture1.png');   
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    background-image: url('Picture1.png');   
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 
         }
 
@@ -148,11 +152,11 @@
 
             
         <!-- <form action="/submit-feedback" method="post"> -->
-            <label for="armyNumber" >Army Number:-</label>
-            <input type="text" id="armyNumber" autocomplete="off" name="armyNumber" required>
+            <label for="Army Number" >Army Number:-</label>
+            <input type="text" id="Army Number" autocomplete="off" name="Army Number" required>
 
             <label for="rank">Rank:-</label>
-            <select name="rank" id="rank" required>
+            <select name="Rank" id="rank" required>
                 <option value="" disabled selected>-- Select your rank --</option>
                 <option value="AV/GD">AV/GD</option>
                 <option value="AV/CLK">AV/CLK</option>
@@ -164,7 +168,7 @@
                 <option value="SUB">SUB</option>
             </select>
 
-            <label for="name">Enter Your Name:-</label>
+            <label for="Name">Enter Your Name:-</label>
             <input type="text" id="name" name="name" autocomplete="off" placeholder="Please enter a valid name." required>
 
             <label for="unit">Unit:-</label>
@@ -234,13 +238,13 @@
 
 
             <label for="course">Course:-</label>
-            <input type="text" id="course" name="course" required>
+            <input type="text" id="course" name="Course" required>
 
             <div class="feedback-questions">
                 <p><strong>Feedback Questions:-</strong></p>
 
-                <label for="q1">* ADM side se apko kis mai improvement chaiye?</label>
-                <select id="q1" name="q1" required>
+                <label for="ADM side se apko kis mai improvement chaiye?">* ADM side se apko kis mai improvement chaiye?</label>
+                <select id="q1" name="ADM side se apko kis mai improvement chaiye?" required>
                     <option value="">-- Select an option --</option>
                     <option value="Food">Food</option>
                     <option value="Toilet">Toilet</option>
@@ -248,7 +252,7 @@
                 </select>
 
                 <label for="q2">* Course mai Instr dwara apko sikhaya/padaya gaya usko madhya nazar rakhte hue ap instr ko ky rating dena chahenge?</label>
-                <select id="q2" name="q2" required>
+                <select id="q2" name="Course mai Instr dwara apko sikhaya/padaya gaya usko madhya nazar rakhte hue ap instr ko ky rating dena chahenge?" required>
                     <option value="">-- Select an option --</option>
                     <option value="Excellent">Excellent</option>
                     <option value="Good">Good</option>
@@ -257,7 +261,7 @@
                 </select>
 
                 <label for="q3">* Apke hisab se course ka Time Duration?</label>
-                <select id="q3" name="q3" required>
+                <select id="q3" name="Apke hisab se course ka Time Duration?" required>
                     <option value="">-- Select an option --</option>
                     <option value="More">Jadya Hona Chaiye</option>
                     <option value="Sufficient">Sufficient</option>
@@ -265,14 +269,14 @@
                 </select>
 
                 <label for="q4">* Kya Course mai Tech Eqpt ki aur jarurt hai?</label>
-                <select id="q4" name="q4" required>
+                <select id="q4" name="Kya Course mai Tech Eqpt ki aur jarurt hai?" required>
                     <option value="">-- Select an option --</option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
 
                 <label for="q5">* Apne Overall Experience ko ap kitni rating dena chahge?</label>
-                <select id="q5" name="q5" required>
+                <select id="q5" name="Apne Overall Experience ko ap kitni rating dena chahge?" required>
                     <option value="">-- Select an option --</option>
                     <option value="Excellent">Excellent</option>
                     <option value="Good">Good</option>
@@ -280,7 +284,7 @@
                 </select>
 
                 <label for="feedback">Any additional feedback or suggestions?</label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Your comments here..."></textarea>
+                <textarea id="feedback" name="Feedback" rows="4" placeholder="Your comments here..."></textarea>
             </div>
 
             <button type="submit" class="submit-btn">Submit</button>
@@ -313,11 +317,5 @@
                 .catch(error => console.error('Error!', error.message));
         });
     </script>
-    
-
-
-
-
-
 </body>
 </html>
